@@ -14,9 +14,10 @@
  *
  * Follow up:
  * What if the inputs contain unicode characters? How would you adapt your solution to such case?
- * 
+ *
  **/
- class Solution {
+
+class Solution {
     public boolean isAnagram(String s, String t) {
         int[] chars = new int[26];
         if(s.length() != t.length()) return false;
